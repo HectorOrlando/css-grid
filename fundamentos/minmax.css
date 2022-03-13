@@ -1,0 +1,8 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: minmax(300px, 1fr ) 1fr; /*minmax: asigna un minimo y un maximo de anchura de la columna */
+    grid-template-rows: minmax(100px, auto) 400px; /*auto: la altura sera automatica segun el contenido */
+    /* lorem10  con este comando podemos poner 10 palabras de lorem*/
+    
+}

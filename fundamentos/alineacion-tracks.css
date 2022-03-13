@@ -1,0 +1,22 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    height: 700px; /* el alto del contenedor */
+    /* Nuestro contenedor es mas grande que la grid  */
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+
+    /* auto | start | center | end | stretch | normal | space-around | space-between| space-evenly  */
+    /*
+    space-around: divide el espacio disponible 
+    space-between: sin espacios a los lados
+    space-evenly: divide los espaacios y estos espacios son del mismo tamaño
+    */
+
+    /* Alineción Horizontal */
+    justify-content: space-evenly;
+
+    /* Alineación vertical  */
+    align-content: space-evenly;
+
+}

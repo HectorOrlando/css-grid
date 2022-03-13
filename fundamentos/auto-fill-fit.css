@@ -1,0 +1,20 @@
+/* 
+fill: llenar
+fit: encajar
+ */
+
+ /* auto-fill : va a llenar toda nuestra fila con todas las columnas que puede llenar dentro 
+y va a crear columnas implicitas todas las que quepan  */
+/* .contenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+} */
+
+.fit {
+    display: grid;
+    grid-gap: 20px;
+    /* auto-fit rellena todo el espacio del contenedor con las columnas disponibles */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* la diferencia con auto-fill es que va a dejar espacios implicitos */
+}

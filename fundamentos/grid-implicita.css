@@ -1,0 +1,28 @@
+/* Explicito son los campos que yo quiero acomodar
+Implicito son los campos que salen sin acomodar automaticamente */
+
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 100px 200px;
+
+    grid-auto-columns: 100px;
+    /* grid-auto-flow:  como acomodar todos los elementos dentro de la grid; */
+    grid-auto-flow: row dense; /*dense: rellena los espacion implicitos con nuestros div */
+}
+
+.contenedor .span2 {
+    grid-column: span 2;
+    /* grid-row: span 2; */
+    background: #ff8000;
+}
+
+.contenedor .span3 {
+    grid-column: span 3;
+    /* grid-row: span 3; */
+    background: #575757;
+}
+
+/* Nota: esta capitulo no lo entendi dejo enlace para retomarlo despues.
+https://youtu.be/FQU2zeHzll0 */
