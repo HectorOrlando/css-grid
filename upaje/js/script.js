@@ -1,12 +1,22 @@
-const menu = document.querySelector('#menu');
-const submenu = document.querySelector('#submenu');
-const menuBar = document.querySelector('#menu-bar');
-const submenuPortafolio = document.querySelector('#menu-portafolio');
+const burgerBtn = document.getElementById('menu-bar');
+const nav = document.getElementById('navbar');
 
-menuBar.addEventListener('click', function() {
-    menu.classList.toggle('menu-toogle')
-})
+burgerBtn.onclick = function () {
+    if (nav.style.visibility === "visible") {
+        nav.style.visibility = "hidden";
+    } else {
+        nav.style.visibility = "visible";
+    }
+}
 
-submenuPortafolio.addEventListener('click', function() {
-    submenu.classList.toggle('submenu-toogle')
-}); 
+const portafolioBtn = document.getElementById('menu-portafolio');
+const subMenu = document.getElementById('submenu');
+
+portafolioBtn.onclick = function () {
+    if (subMenu.style.display === "block") {
+        subMenu.style.display = "none";
+    } else {
+        subMenu.style.display = "block";
+    }
+}
+

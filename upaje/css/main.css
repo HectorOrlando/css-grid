@@ -1,0 +1,29 @@
+main {
+  padding-top: 50px;
+}
+
+#person {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+section .person-imagen {
+  width: 250px;
+  justify-self: center;
+  align-self: center;
+}
+
+section .person-parrafo {
+  font-size: 2em;
+  color: #20232a;
+  justify-self: center;
+  align-self: center;
+}
+
+section .person-developer {
+  font-size: 1em;
+  color: #20232a;
+  justify-self: center;
+  align-self: center;
+}

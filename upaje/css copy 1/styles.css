@@ -1,0 +1,163 @@
+/* Vídeo tutorial */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:ital,wght@0,100;0,300;0,900;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;  
+}
+
+nav ul {
+    list-style: none;
+    width: 800px;
+    /* width: 155px;  tamaño mobile  */
+    background: #2c892c;
+    padding: 2px;
+    text-align: center;
+    margin: auto;
+    height: 43px;
+}
+
+nav ul li {
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #36ab36;
+    margin: 5px;
+    padding: 5px;
+    transition: background-color 1.5s;
+    
+    
+}
+
+nav ul li a:hover {
+    /* margin-left: 30px; */
+    background: #87c487;
+}
+
+/* SUBMENU*/
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul {
+    width: 155px;
+    height: 110px;
+    /* margin-left: 50px;  tamaño mobile*/
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    background: #bdd55b;
+}
+
+
+
+
+
+
+
+/* .navbar {
+    background-color: #20232A;
+    color: #fff;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "navbar-title    menu    menu";
+    justify-items: stretch;
+    align-items: center;
+}
+
+.navbar h1 {
+    grid-area: navbar-title;
+    justify-self: center;
+    align-self: center;
+    font-size: 2em;
+}
+
+.navbar .menu {
+    grid-area: menu;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .menu li {
+    list-style: none;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#submenu {
+    display: none;
+}
+
+.navbar .menu-bar {
+    display: none;
+} */
+
+
+/* .navbar h1 {
+    font-size: 2em;
+    grid-column: 2/4;
+}
+
+.navbar .menu {
+    grid-column: 5/7;
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .navbar .menu li {
+    list-style: none;  //quito los puntos que estan por defecto
+}
+
+.navbar .menu a {
+    text-decoration: none; quito la barra baja del enlace por defecto 
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar .menu-bar {
+    display: none;
+}
+
+.navbar .submenu{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+/* portafolio   color:  #2c3e50;
+about        background: #282c34;
+header footer background: #20232a; */

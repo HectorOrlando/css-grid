@@ -1,62 +1,34 @@
-/* Vídeo tutorial */
+/* url vídeo: https://youtu.be/nOjxVmN-obU */
+/* enlace: posicionamiento https://www.w3.org/TR/css-align-3/#overview */
+/* url grid:  https://lenguajecss.com/css/maquetacion-y-colocacion/grid-css/ */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:ital,wght@0,100;0,300;0,900;1,500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:ital,wght@0,100;0,300;0,900;1,500&display=swap");
+@import url(menu.css);
+@import url(main.css);
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;  
+  font-family: "Roboto", sans-serif;
+  background: #fff;
 }
 
-.navbar {
-    background-color: #20232a;
-    color: #fff;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    align-items: center;
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  height: 50px;
+  padding-top: 5px;
+  background: #16181d;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "h1     h1      menu-bar"
+    "navbar navbar  navbar";
 }
-
-.navbar h1 {
-    font-size: 2em;
-    grid-column: 2/4;
-}
-
-.navbar .menu {
-    grid-column: 5/7;
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar .menu li {
-    list-style: none; /*quito los puntos que estan por defecto*/
-}
-
-.navbar .menu a {
-    text-decoration: none; /*quito la barra baja del enlace por defecto */
-    color: #fff;
-    cursor: pointer;
-}
-
-.navbar .menu-bar {
-    display: none;
-}
-
-.navbar .submenu{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-/* portafolio   color:  #2c3e50;
-about        background: #282c34;
-header footer background: #20232a; */

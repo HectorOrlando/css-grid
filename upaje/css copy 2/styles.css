@@ -1,0 +1,62 @@
+/* Vídeo tutorial */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:ital,wght@0,100;0,300;0,900;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;  
+}
+
+.navbar {
+    background-color: #20232a;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 2em;
+    grid-column: 2/4;
+}
+
+.navbar .menu {
+    grid-column: 5/7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .menu li {
+    list-style: none; /*quito los puntos que estan por defecto*/
+}
+
+.navbar .menu a {
+    text-decoration: none; /*quito la barra baja del enlace por defecto */
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar .menu-bar {
+    display: none;
+}
+
+.navbar .submenu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* portafolio   color:  #2c3e50;
+about        background: #282c34;
+header footer background: #20232a; */
