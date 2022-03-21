@@ -1,3 +1,20 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  height: 50px;
+  padding-top: 5px;
+  background: #16181d;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "h1     h1      menu-bar"
+    "navbar navbar  navbar";
+}
+
 header h1 {
   grid-area: h1;
   justify-self: center;
@@ -42,6 +59,15 @@ header .navbar .menu li {
 header .navbar .menu a {
   text-decoration: none;
   color: white;
+}
+
+header .navbar .menu .submenu {
+  background: #fff;
+  width: 200px;
+}
+
+header .navbar .menu .submenu a {
+  color: #20232a;
 }
 
 #submenu {

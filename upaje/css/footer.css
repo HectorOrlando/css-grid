@@ -1,0 +1,23 @@
+footer {
+  background: #282c34;
+  color: #fff;
+  padding: 10px;
+}
+
+footer div {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+footer p {
+  font-size: 1em;
+  text-align: justify;
+  justify-self: center;
+  align-self: center;
+}
+
+footer .footer-title {
+  font-size: 2em;
+}
