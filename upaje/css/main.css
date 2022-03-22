@@ -17,14 +17,14 @@ main {
 }
 
 #section-person p {
-  font-size: 2em;
+  font-size: 3em;
   color: #fff;
   justify-self: center;
   align-self: center;
 }
 
 #section-person #person-developer {
-  font-size: 1em;
+  font-size: 1.5em;
   color: #fff;
   justify-self: center;
   align-self: center;
@@ -39,20 +39,20 @@ section .portafolio {
 }
 
 section .portafolio img {
-  width: 250px;
+  width: 200px;
   justify-self: center;
   align-self: center;
 }
 
 section .portafolio p {
-  font-size: 1em;
+  font-size: 1.5em;
   color: #282C34;
   justify-self: center;
   align-self: center;
 }
 
 section .portafolio #portafolio-title {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 #section-about {
@@ -63,8 +63,12 @@ section .portafolio #portafolio-title {
   grid-template-rows: 1fr;
 }
 
+#section-about #about-title {
+  font-size: 3em;
+}
+
 #section-about p {
-  font-size: 1em;
+  font-size: 1.5em;
   text-align: justify;
   color: #fff;
   padding: 5px 20px;
@@ -74,7 +78,7 @@ section .portafolio #portafolio-title {
 
 section .contact-title {
   padding-top: 10px;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -86,21 +90,27 @@ form div {
 }
 
 form label {
-  font-size: 1em;
+  font-size: 1.5em;
+  color: #282C34;
   text-align: justify;
   justify-self: start;
   align-self: start;
   margin: 5px 0px;
+  border-radius: 30%;
 }
 
 form input {
-  margin-top: 5px;
+  margin: 1px;
+  width: 100%;
+  height: 40px;
   justify-self: start;
   align-self: start;
 }
 
 form textarea {
-  margin-top: 5px;
+  margin: 1px;
+  width: 100%;
+  height: 100px;
   justify-self: stretch;
   align-self: stretch;
 }
