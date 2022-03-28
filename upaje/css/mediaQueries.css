@@ -32,13 +32,22 @@
   #submenu {
     margin: 0px;
     display: none;
-    width: 100px;
     height: 120px;
   }
 
   header li:hover {
-    text-align: center;
     background: red;
     width: auto;
   }
+
+  .menu-portafolio{
+    position: relative;
+  }
+
+  .submenu{
+    position: absolute;
+    top: 100%;
+    width: auto;
+  }
+
 }

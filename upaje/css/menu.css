@@ -63,7 +63,6 @@ header .navbar .menu a {
 
 header .navbar .menu .submenu {
   background: #fff;
-  width: 200px;
 }
 
 header .navbar .menu .submenu a {
@@ -71,7 +70,7 @@ header .navbar .menu .submenu a {
 }
 
 #submenu {
-  margin-left: 100px;
+  margin-left: 30px;
   margin-bottom: 5px;
   display: none;
   /* border: 1px solid blue; */
